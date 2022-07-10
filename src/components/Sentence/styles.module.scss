@@ -1,0 +1,11 @@
+.sentence {
+  color: gray;
+  font-size: 1rem;
+  transition: 300ms;
+  text-align: justify;
+
+  &.isActive {
+    color: black;
+    font-size: 1.75rem;
+  }
+}
